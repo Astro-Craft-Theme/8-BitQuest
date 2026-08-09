@@ -14,7 +14,7 @@ import { defineConfig, envField } from "astro/config";
 // variable rather than assuming one. None of these is set by a local `pnpm build` or by a deploy
 // preview, so previews and local work build freely. On a host not listed here, set DEPLOY_ENV
 // yourself (see .env.example) — the gate is only as good as the signal it can see.
-const site = process.env.SITE_URL ?? "https://example.com";
+const site = process.env.SITE_URL ?? "https://EstebanPereiraT.github.io";
 const isProductionDeploy =
   process.env.CONTEXT === "production" || // Netlify
   process.env.VERCEL_ENV === "production" || // Vercel
